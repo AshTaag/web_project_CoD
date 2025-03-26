@@ -1,0 +1,95 @@
+:root {
+	--main-bg-color: #475C45;
+	--title-color: #141D14;
+	--accent-color: #FAF5E9;
+	--dark-mode: rgb(29, 27, 27);
+}
+
+.stats-table {
+	table-layout: fixed;
+	width: 95%;
+	border-collapse: collapse;
+	border: 2px solid var(--title-color);
+	overflow-x: hidden;
+	color: var(--accent-color);
+}
+
+.table-container {
+	overflow-y: auto;
+	padding: 30px;
+}
+
+caption {
+	font-size: larger;
+	font-family: garamond;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 1rem;
+	text-decoration: underline;
+}
+
+th {
+	font-weight: bold;
+	font-size: 1.1em;
+	text-align: center;
+	border: 1px solid var(--title-color);
+	padding: 10px;
+	position: sticky;
+  }
+
+td {
+	text-align: center;
+	border: 1px solid var(--title-color); 
+	padding: 10px;
+  }
+
+.dark-mode .stats-table th td {
+	border: 3px solid white;
+}
+
+.intro {
+	background-image: url(intro.png);
+    padding: 6rem;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 768px) {
+	.intro {
+	  padding: 2rem;
+	}
+  
+	.stats-table {
+	  width: 100%;
+	}
+  
+	th {
+	  font-size: 0.9em;
+	}
+  
+	td {
+	  font-size: 0.9em;
+	  word-break: break-word;
+	}
+  
+	.table-container {
+	  padding: 10px;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.intro {
+	  padding: 1rem;
+	}
+  
+	.stats-table {
+	  font-size: 0.8em;
+	}
+  
+	th {
+	  font-size: 0.8em;
+	}
+  
+	td {
+	  font-size: 0.8em;
+	}
+  }

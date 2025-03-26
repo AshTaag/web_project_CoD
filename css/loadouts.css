@@ -1,0 +1,118 @@
+:root {
+  --main-bg-color: #475C45;
+  --title-color: #141D14;
+  --accent-color: #FAF5E9;
+  --dark-mode: rgb(29, 27, 27);
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+main {
+  padding-bottom: 30px;
+}
+
+
+/* Set full height for sections */
+section {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
+}
+
+/* Styling for the intro section */
+.intro {
+  text-align: right;
+  padding: 5rem;
+  font-weight: bold;
+  font-size: larger;
+  font-family: garamond;
+}
+
+.intro-section {
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: auto;
+  animation: slideInFromSide 1.5s ease-in;
+}
+
+@keyframes slideInFromSide {
+  0% {
+    opacity: 0;
+    transform: translate(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+  
+}
+
+.parallax-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+  border-bottom: 2px dotted black;
+}
+
+/* Styling for parallax sections */
+.parallax {
+  height: 100vh;
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  overflow: auto;
+  margin: 1em;
+}
+
+/* Styling for container within sections */
+.container {
+  font-family: garamond;
+  color: var(--main-bg-color);
+  background-color: var(--accent-color);
+  margin: 5px;
+  padding: 10px;
+  font-size: 1em;
+  word-spacing: 3px;
+}
+
+
+
+@media screen and (max-width: 770px) {
+  .parallax-container {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-section {
+    background-size: contain;
+  }
+
+  .parallax {
+    background-position: center;
+
+  }
+  
+}
+
+@media screen and (max-width: 365px) {
+
+  .parallax-container {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-section {
+    background-size: contain;
+  }
+
+  .intro {
+    text-align: center;
+    font-size: medium;
+    margin-top: 50px;
+  }
+}

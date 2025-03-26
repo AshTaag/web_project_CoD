@@ -1,0 +1,102 @@
+[
+    {
+      "username": "FrostFire",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 2500,
+      "deaths": 1000,
+      "kill_death_ratio": 2.5,
+      "assists": 1500,
+      "score_per_minute": 300,
+      "game_time": "20h 30m"
+    },
+    {
+      "username": "AshTag",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 2000,
+      "deaths": 800,
+      "kill_death_ratio": 2.5,
+      "assists": 1200,
+      "score_per_minute": 280,
+      "game_time": "18h 45m"
+    },
+    {
+      "username": "PhantomAssassin",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 3000,
+      "deaths": 1500,
+      "kill_death_ratio": 2,
+      "assists": 1000,
+      "score_per_minute": 320,
+      "game_time": "22h 15m"
+    },
+    {
+      "username": "CrimsonBlade",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 1500,
+      "deaths": 500,
+      "kill_death_ratio": 3,
+      "assists": 800,
+      "score_per_minute": 250,
+      "game_time": "16h 10m"
+    },
+    {
+      "username": "CyberShade",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 2200,
+      "deaths": 1200,
+      "kill_death_ratio": 1.83,
+      "assists": 1800,
+      "score_per_minute": 310,
+      "game_time": "19h 55m"
+    },
+    {
+      "username": "ThunderTitan",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 1800,
+      "deaths": 1000,
+      "kill_death_ratio": 1.8,
+      "assists": 1500,
+      "score_per_minute": 290,
+      "game_time": "17h 40m"
+    },
+    {
+      "username": "OmegaOracle",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 2800,
+      "deaths": 1400,
+      "kill_death_ratio": 2,
+      "assists": 1200,
+      "score_per_minute": 330,
+      "game_time": "21h 05m"
+    },
+    {
+      "username": "EclipseEdge",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 1600,
+      "deaths": 700,
+      "kill_death_ratio": 2.29,
+      "assists": 1000,
+      "score_per_minute": 270,
+      "game_time": "15h 20m"
+    },
+    {
+      "username": "SolarSpectre",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 3200,
+      "deaths": 1100,
+      "kill_death_ratio": 2.91,
+      "assists": 2000,
+      "score_per_minute": 340,
+      "game_time": "23h 30m"
+    },
+    {
+      "username": "InfernoRider",
+      "game": "Modernwarfare 3 (2023)",
+      "kills": 1400,
+      "deaths": 900,
+      "kill_death_ratio": 1.56,
+      "assists": 700,
+      "score_per_minute": 260,
+      "game_time": "14h 15m"
+    }
+  ]
